@@ -8,7 +8,7 @@ export default function App() {
       </h1> 
     <footer> This project was coded by Rita Bern and is
    
-    <a href="https://github.com/finnocino/react-weather-project" target='_blank'> open-sourced on Github </a>
+    <a href="https://github.com/finnocino/react-weather-project" target='_blank' rel="noreferrer"> open-sourced on Github </a>
      </footer>
     </div>
   );
