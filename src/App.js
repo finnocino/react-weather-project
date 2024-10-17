@@ -10,7 +10,7 @@ export default function App() {
     <footer> This project was coded by Rita Bern and is
     <a href="https://github.com/finnocino/react-weather-project" 
     target='_blank' 
-    rel="noreferrer"> open-sourced on Github </a>  and hosted on <a href="https://github.com/finnocino/react-weather-project" 
+    rel="noreferrer"> open-sourced on Github </a>  and hosted on <a href="https://fun-react-weather-project.netlify.app/" 
     target='_blank' 
     rel="noreferrer">Netlify</a>
      </footer>
