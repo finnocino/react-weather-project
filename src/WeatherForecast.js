@@ -24,10 +24,10 @@ export default function WeatherForecast(props) {
        </div>
         );
     } else {
-        let apiKey = "59bd33ccd8e828a167b70a09aa704dfb";
+        let apiKey = "d1a86552de255334f6117b348c4519bd";
         let lat = props.coordinates.lat;
         let lon = props.coordinates.lon;
-        let apiUrl =  `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
+        let apiUrl =  `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
 
         axios.get(apiUrl).then(handleResponse);   
     
